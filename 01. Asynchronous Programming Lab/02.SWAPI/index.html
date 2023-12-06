@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blog</title>
+</head>
+
+<body onload="attachEvents()">
+    <h1>Star Wars Fan Info</h1>
+    <div>
+        <label for="selectSearch">Select Category: </label>
+        <select name="type" id="selectCategory">
+            <option value="people">People</option>
+            <option value="planets">Planets</option>
+            <option value="starships">Starships</option>
+            <option value="vehicles">Vehicles</option>
+            <option value="species">Species</option>
+        </select>
+        <button id="btnLoadPosts">Load Posts</button>
+    </div>
+    <br>
+    <div>
+        <select id="posts"></select>
+        <button id="btnViewPost">View</button>
+    </div>
+
+    <div>
+        <h2 id="detailsTitle">Details</h2>
+        <ul id="details"></ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

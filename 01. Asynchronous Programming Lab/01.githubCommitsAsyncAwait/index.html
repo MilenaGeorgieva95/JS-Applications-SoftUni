@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Commits</title>
+</head>
+
+<body>
+    <div>
+        <label for="username">GitHub username: </label>
+        <input type="text" id="username" placeholder="GitHub username" value="nakov" />
+    </div>
+    <div>
+        <label for="repo">Repo: </label>
+        <input type="text" id="repo" placeholder="repository" value="nakov.io.cin" />
+    </div>
+
+    <button onclick="loadCommits()">Load Commits</button>
+    <ul id="commits"></ul>
+    <script src="app.js"></script>
+</body>
+
+</html>
